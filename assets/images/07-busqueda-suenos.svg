@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Búsqueda en sueños bajo luna gótica">
+<title>Búsqueda en sueños bajo luna gótica</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22142e"/><stop offset=".56" stop-color="#574169"/><stop offset="1" stop-color="#08060d"/></linearGradient>
+  <radialGradient id="glow" cx="50%" cy="42%" r="55%"><stop offset="0" stop-color="#fff6d9" stop-opacity=".45"/><stop offset="1" stop-color="#fff6d9" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#130713" flood-opacity=".35"/></filter>
+  <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="14" cy="18" r="1.4" fill="#fff" opacity=".18"/><circle cx="59" cy="40" r="1" fill="#fff" opacity=".12"/><circle cx="78" cy="72" r="1.2" fill="#000" opacity=".08"/></pattern>
+  <style>
+    .gold{fill:#f4dda4} .rose{fill:#d76d8a} .wine{fill:#5d1f38} .cream{fill:#fff2d2} .ink{fill:#24121b} .blue{fill:#5e8aa8} .violet{fill:#49305c} .green{fill:#58734a} .line{fill:none;stroke:#f4dda4;stroke-width:7;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#f4dda4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;opacity:.72}
+  </style>
+</defs>
+<rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+<rect width="1200" height="900" rx="56" fill="url(#grain)" opacity=".55"/>
+<ellipse cx="600" cy="410" rx="470" ry="345" fill="url(#glow)"/>
+<g opacity=".85">
+  <circle cx="110" cy="100" r="4" fill="#fff2c7"/><circle cx="220" cy="165" r="3" fill="#fff" opacity=".72"/><circle cx="1035" cy="120" r="4" fill="#fff2c7"/><circle cx="990" cy="244" r="2.8" fill="#fff" opacity=".68"/><circle cx="760" cy="94" r="3" fill="#fff2c7"/>
+  <path d="M940 640l16 36 36 16-36 16-16 36-16-36-36-16 36-16z" fill="#fff2c7" opacity=".28"/>
+  <path d="M190 620l11 25 25 11-25 11-11 25-11-25-25-11 25-11z" fill="#fff2c7" opacity=".24"/>
+</g>
+
+<g filter="url(#shadow)">
+  <path d="M250 705V290c0-92 76-168 168-168h364c92 0 168 76 168 168v415" fill="#1b1023" opacity=".92"/>
+  <path d="M330 705V330c0-58 47-105 105-105h330c58 0 105 47 105 105v375" fill="#2c1c39"/>
+  <circle cx="600" cy="390" r="136" fill="#e9e0ff" opacity=".88"/>
+  <circle cx="650" cy="350" r="120" fill="#2c1c39" opacity=".92"/>
+  <path d="M600 248v460M348 410h504" stroke="#846a9c" stroke-width="12" opacity=".65"/>
+  <path d="M345 710c92-62 180-84 264-62s164 18 244-30" class="thin"/>
+  <path d="M512 650c44-53 88-51 132 0" class="line" opacity=".72"/>
+  <path d="M430 520c38-30 75-30 110 0-34 24-70 24-110 0zM760 520c-38-30-75-30-110 0 34 24 70 24 110 0z" fill="#a6d4e8" opacity=".62"/>
+  <path d="M205 238l22 49 49 22-49 22-22 49-22-49-49-22 49-22z" fill="#f4dda4" opacity=".38"/>
+</g>
+
+</svg>

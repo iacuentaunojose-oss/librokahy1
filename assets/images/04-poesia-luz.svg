@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Luz poética entrando al alma">
+<title>Luz poética entrando al alma</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff6cf"/><stop offset=".6" stop-color="#e6c270"/><stop offset="1" stop-color="#b36d67"/></linearGradient>
+  <radialGradient id="glow" cx="50%" cy="42%" r="55%"><stop offset="0" stop-color="#fff6d9" stop-opacity=".45"/><stop offset="1" stop-color="#fff6d9" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#130713" flood-opacity=".35"/></filter>
+  <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="14" cy="18" r="1.4" fill="#fff" opacity=".18"/><circle cx="59" cy="40" r="1" fill="#fff" opacity=".12"/><circle cx="78" cy="72" r="1.2" fill="#000" opacity=".08"/></pattern>
+  <style>
+    .gold{fill:#f4dda4} .rose{fill:#d76d8a} .wine{fill:#5d1f38} .cream{fill:#fff2d2} .ink{fill:#24121b} .blue{fill:#5e8aa8} .violet{fill:#49305c} .green{fill:#58734a} .line{fill:none;stroke:#f4dda4;stroke-width:7;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#f4dda4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;opacity:.72}
+  </style>
+</defs>
+<rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+<rect width="1200" height="900" rx="56" fill="url(#grain)" opacity=".55"/>
+<ellipse cx="600" cy="410" rx="470" ry="345" fill="url(#glow)"/>
+<g opacity=".85">
+  <circle cx="110" cy="100" r="4" fill="#fff2c7"/><circle cx="220" cy="165" r="3" fill="#fff" opacity=".72"/><circle cx="1035" cy="120" r="4" fill="#fff2c7"/><circle cx="990" cy="244" r="2.8" fill="#fff" opacity=".68"/><circle cx="760" cy="94" r="3" fill="#fff2c7"/>
+  <path d="M940 640l16 36 36 16-36 16-16 36-16-36-36-16 36-16z" fill="#fff2c7" opacity=".28"/>
+  <path d="M190 620l11 25 25 11-25 11-11 25-11-25-25-11 25-11z" fill="#fff2c7" opacity=".24"/>
+</g>
+
+<g filter="url(#shadow)">
+  <circle cx="335" cy="255" r="140" fill="#fff2b4" opacity=".88"/>
+  <path d="M335 116v-70M335 464v-70M194 255h-70M546 255h-70M235 155l-50-50M485 405l-50-50M235 355l-50 50M485 105l-50 50" class="line" opacity=".62"/>
+  <path d="M655 315c-110 0-210 70-265 150 55 80 155 150 265 150s210-70 265-150c-55-80-155-150-265-150z" fill="#fff2d2" opacity=".92"/>
+  <ellipse cx="655" cy="465" rx="100" ry="86" fill="#6c3758" opacity=".88"/>
+  <circle cx="655" cy="465" r="38" fill="#2b1917"/><circle cx="675" cy="442" r="15" fill="#fff" opacity=".78"/>
+  <path d="M540 670c58-44 112-44 162 0M500 715c100-62 205-62 310 0" class="thin"/>
+</g>
+
+</svg>

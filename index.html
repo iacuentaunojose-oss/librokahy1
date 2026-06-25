@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Para mi querida Kathy · Texto completo</title>
+<style>
+:root{
+  --bg0:#100815; --bg1:#26152d; --bg2:#52243a; --ink:#2b1917; --gold:#d9b86f; --gold2:#f4dda4; --rose:#c85c7c; --safeTop:env(safe-area-inset-top,0px); --safeBottom:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box} html,body{margin:0;min-height:100%}
+body{font-family:Georgia,Cambria,"Times New Roman",serif;color:#fff4df;background:radial-gradient(circle at 13% 9%,rgba(244,221,164,.18),transparent 26%),radial-gradient(circle at 84% 14%,rgba(200,92,124,.18),transparent 24%),linear-gradient(135deg,var(--bg0),var(--bg1) 48%,#07040b);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:radial-gradient(circle,rgba(255,235,181,.75) 0 1px,transparent 1.35px),radial-gradient(circle,rgba(255,255,255,.35) 0 1px,transparent 1.25px);background-size:54px 54px,92px 92px;background-position:0 0,24px 20px;animation:stars 48s linear infinite;z-index:0}@keyframes stars{to{transform:translate3d(-90px,48px,0)}}
+.app{position:relative;z-index:1;min-height:100dvh;padding:calc(16px + var(--safeTop)) 14px calc(94px + var(--safeBottom));display:flex;flex-direction:column;align-items:center;gap:14px}
+.topbar{width:min(1220px,100%);display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 14px;border:1px solid rgba(244,221,164,.28);border-radius:28px;background:rgba(18,10,22,.72);box-shadow:0 14px 42px rgba(0,0,0,.24);backdrop-filter:blur(16px);position:sticky;top:calc(8px + var(--safeTop));z-index:50}.brand{display:flex;align-items:center;gap:12px;min-width:0}.brand-mark{width:44px;height:44px;flex:0 0 auto;border-radius:15px;display:grid;place-items:center;font-weight:900;color:#35171d;background:radial-gradient(circle at 35% 25%,#fff4d1,#d9b86f 58%,#c85c7c);box-shadow:inset 0 0 0 1px rgba(255,255,255,.5),0 8px 20px rgba(0,0,0,.25)}.brand h1{margin:0;font-size:clamp(16px,2vw,24px);line-height:1.08;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.brand p{margin:4px 0 0;color:rgba(255,244,223,.72);font:12px/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}button,.btn{appearance:none;border:0;font:inherit;cursor:pointer;text-decoration:none}.pill{min-height:40px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:0 14px;border-radius:999px;color:#4b2924;background:linear-gradient(180deg,#fff6e4,#dfbd78);box-shadow:inset 0 0 0 1px rgba(91,52,28,.18),0 8px 18px rgba(0,0,0,.22);transition:transform .18s ease,filter .18s ease;white-space:nowrap}.pill:hover{transform:translateY(-1px);filter:brightness(1.04)}.pill.secondary{background:rgba(255,246,228,.11);color:#fff1d7;border:1px solid rgba(244,221,164,.25);box-shadow:none}
+.book-wrap{width:min(1220px,100%);display:grid;place-items:center}.page{display:none;position:relative;width:min(1280px,97vw);min-height:min(780px,calc(100dvh - 155px));overflow:hidden;border-radius:30px;color:var(--ink);box-shadow:0 26px 90px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,239,188,.55);animation:pageIn .38s cubic-bezier(.2,.9,.2,1) both}.page.active{display:block}@keyframes pageIn{from{opacity:0;transform:rotateY(-5deg) translateY(8px) scale(.992)}to{opacity:1;transform:rotateY(0) translateY(0) scale(1)}}.page:before{content:"";position:absolute;inset:16px;border:2px solid rgba(217,184,111,.68);border-radius:24px;pointer-events:none;z-index:6;box-shadow:inset 0 0 0 1px rgba(89,50,22,.18)}.page:after{content:"";position:absolute;inset:0;pointer-events:none;z-index:1;opacity:.25;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='320' height='320' filter='url(%23n)' opacity='.13'/%3E%3C/svg%3E")}.page-glow{position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(circle at 22% 18%,rgba(255,255,255,.35),transparent 28%),radial-gradient(circle at 84% 16%,rgba(255,205,135,.24),transparent 28%),radial-gradient(circle at 50% 100%,rgba(105,38,66,.18),transparent 42%)}
+.page-inner{position:relative;z-index:3;min-height:inherit;display:grid;grid-template-columns:minmax(300px,.38fr) minmax(0,1fr);gap:clamp(24px,3.4vw,48px);padding:clamp(38px,5vw,66px);padding-bottom:118px;align-items:start}.visual-col{min-width:0}.image-slot.filled{padding:0;border:0;overflow:hidden;position:sticky;top:110px;display:block;min-height:clamp(260px,38vw,460px);border-radius:28px;background:#160819;box-shadow:inset 0 0 0 1px rgba(255,255,255,.18),0 18px 48px rgba(69,36,29,.18)}.image-slot.filled img{width:100%;height:100%;min-height:inherit;object-fit:cover;display:block;border-radius:inherit}.text-col{min-width:0;max-width:820px}.chapter-label{display:inline-flex;margin-bottom:10px;padding:7px 12px;border-radius:999px;background:rgba(217,184,111,.18);color:#7b4d27;border:1px solid rgba(217,184,111,.36);font:700 11px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.16em;text-transform:uppercase}h2{margin:0;font-size:clamp(28px,3.4vw,50px);line-height:1;color:#6c243c;letter-spacing:-.035em}.ornament{margin:16px 0;color:#b3843c;letter-spacing:.16em}.letter-raw{white-space:pre-wrap;font-size:clamp(16px,1.32vw,18px);line-height:1.72;color:#2b1917;overflow-wrap:anywhere}.letter-raw::selection{background:rgba(217,184,111,.3)}
+.music-strip{position:absolute;left:clamp(28px,5vw,62px);right:clamp(28px,5vw,62px);bottom:34px;z-index:8;display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:999px;background:rgba(43,22,28,.88);color:#fff5e3;border:1px solid rgba(244,221,164,.34);box-shadow:0 12px 30px rgba(0,0,0,.22),inset 0 0 0 1px rgba(255,255,255,.05);backdrop-filter:blur(10px)}.music-icon{width:44px;height:44px;flex:0 0 auto;border-radius:50%;display:grid;place-items:center;color:#fff6e9;font-weight:900;background:radial-gradient(circle at 35% 25%,#fff1d0,#c85c7c 58%,#752b42);border:1px solid rgba(255,244,202,.68);box-shadow:0 6px 14px rgba(0,0,0,.25);animation:pulseMusic 1.8s ease-in-out infinite alternate}@keyframes pulseMusic{from{transform:scale(.96);opacity:.82}to{transform:scale(1.04);opacity:1}}.music-info{min-width:0;flex:1;display:flex;flex-direction:column;gap:2px}.music-info strong{font:700 12px/1.15 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#f4dda4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.music-info span{font:11px/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:rgba(255,245,227,.78);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.auto-badge{flex:0 0 auto;color:#f4dda4;border:1px solid rgba(244,221,164,.28);padding:8px 11px;border-radius:999px;text-decoration:none;font:800 11px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.06em}.music-strip.is-active{box-shadow:0 12px 34px rgba(200,92,124,.28),inset 0 0 0 1px rgba(255,255,255,.08);border-color:rgba(244,221,164,.52)}.music-strip.is-waiting .music-icon{animation:none;opacity:.65}.page-num{position:absolute;z-index:8;right:32px;top:28px;color:rgba(93,56,37,.58);font:700 12px/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}.corner{position:absolute;z-index:4;color:rgba(150,94,52,.22);font-size:26px;pointer-events:none}.c1{left:28px;top:24px}.c2{right:28px;top:24px}.c3{left:28px;bottom:24px}.c4{right:28px;bottom:24px}
+.theme-cover{background:linear-gradient(155deg,#32103f,#150719 62%,#09040d);color:#fff5e3}.theme-cover .letter-raw{color:#fff5e3}.theme-cover h2{color:#f4dda4;text-shadow:0 2px 24px rgba(217,184,111,.22)}.theme-cover .chapter-label{color:#f4dda4;background:rgba(244,221,164,.1)}.theme-cover .ornament{color:#f4dda4}.theme-cover .page-num{color:rgba(244,221,164,.65)}
+.theme-paper{background:linear-gradient(155deg,#fff9ed,#eed3b5 70%,#d7a4b3)}.theme-rose{background:linear-gradient(155deg,#fff1e6,#ffdbe3 70%,#d4a7c0)}.theme-gold{background:linear-gradient(155deg,#fff8d9,#f0c56d 70%,#d88572)}.theme-wine{background:linear-gradient(155deg,#ffece8,#dc98a5 70%,#74324f)}.theme-night{background:linear-gradient(155deg,#f0eefb,#c9c4e5 70%,#7c70a7)}.theme-burton{background:linear-gradient(155deg,#f6f0ff,#d1bfdc 70%,#8c6b9d)}.theme-blue{background:linear-gradient(155deg,#f1fbff,#c9e6f6 70%,#91b4d8)}.theme-forest{background:linear-gradient(155deg,#fff3da,#d8e3be 70%,#9ab27c)}.theme-sun{background:linear-gradient(155deg,#fff7cf,#ffc874 70%,#e29382)}.theme-medieval{background:linear-gradient(155deg,#fff4df,#ead7b5 72%,#c7aa7a)}.theme-gothic{background:linear-gradient(155deg,#f9f0f3,#ddc4d4 72%,#b993b0)}.theme-violet{background:linear-gradient(155deg,#eaf9ff,#b6def0 70%,#75b4d3)}
+
+.final-page .page-inner{grid-template-columns:1fr;place-items:center;text-align:center;padding-bottom:120px;}
+.final-page .text-col{max-width:860px;width:100%;display:flex;flex-direction:column;align-items:center;}
+.final-quote-frame{width:min(720px,92%);margin:18px auto 0;border-radius:28px;overflow:hidden;background:#0b0b13;box-shadow:0 22px 62px rgba(0,0,0,.32),inset 0 0 0 1px rgba(255,255,255,.18);}
+.final-quote-frame img{width:100%;height:auto;display:block;object-fit:contain;}
+.final-page .ornament{margin-bottom:10px;}
+@media (max-width:720px){.final-quote-frame{width:100%;border-radius:22px}.final-page .page-inner{padding-bottom:112px}}
+.nav-bar{position:fixed;left:50%;bottom:calc(14px + var(--safeBottom));transform:translateX(-50%);width:min(760px,calc(100vw - 24px));z-index:80;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px;border-radius:999px;background:rgba(18,10,22,.78);border:1px solid rgba(244,221,164,.25);box-shadow:0 12px 38px rgba(0,0,0,.3);backdrop-filter:blur(14px)}.counter{min-width:98px;text-align:center;color:#fff1d7;font:700 12px/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}.progress{height:6px;flex:1;max-width:180px;border-radius:99px;background:rgba(255,255,255,.14);overflow:hidden}.progress>i{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,#f4dda4,#c85c7c,#f4dda4);transition:width .25s ease}#bgAudio{position:fixed;left:-9999px;top:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}.status-line{width:min(1180px,96vw);min-height:20px;text-align:center;color:rgba(255,244,223,.75);font:12px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+@media(max-width:820px){.app{padding:calc(10px + var(--safeTop)) 8px calc(86px + var(--safeBottom));gap:10px}.topbar{border-radius:22px;padding:10px;top:calc(6px + var(--safeTop))}.brand-mark{width:38px;height:38px;border-radius:13px}.brand p{display:none}.actions .hide-mobile{display:none}.pill{min-height:38px;padding:0 11px;font-size:14px}.page{width:100%;min-height:calc(100dvh - 154px);border-radius:22px}.page:before{inset:9px;border-radius:17px}.page-inner{grid-template-columns:1fr;gap:18px;padding:26px 18px 112px;align-items:start}.visual-col{order:2}.text-col{order:1;max-width:none}.image-slot.filled{position:relative;top:auto;min-height:210px;border-radius:20px}.image-slot.filled img{min-height:210px}h2{font-size:clamp(26px,8vw,38px);line-height:1.02}.ornament{margin:12px 0}.letter-raw{font-size:15.5px;line-height:1.62;text-align:left}.music-strip{left:16px;right:16px;bottom:22px;gap:8px;padding:9px 10px;border-radius:24px}.music-icon{width:38px;height:38px}.music-info strong{font-size:11px}.music-info span{font-size:10px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.auto-badge{display:none}.page-num{top:15px;right:18px}.corner{display:none}.nav-bar{width:calc(100vw - 16px);gap:6px;padding:8px}.counter{min-width:72px;font-size:11px}.progress{max-width:78px}.nav-bar .pill{padding:0 10px;font-size:13px}}
+@media(max-width:420px){.brand h1{max-width:185px;font-size:15px}.actions .pill.secondary{display:none}.page-inner{padding:24px 16px 112px}.letter-raw{font-size:15px;line-height:1.58}}
+@media print{body{background:white;color:black}body:before,.topbar,.nav-bar,.music-strip,.status-line,#bgAudio{display:none!important}.app{display:block;padding:0}.book-wrap{display:block;width:auto}.page{display:block!important;width:190mm;min-height:260mm;margin:0 auto;box-shadow:none;break-after:page;page-break-after:always;border-radius:0}.page-inner{padding:24mm 18mm;padding-bottom:24mm}.image-slot.filled{position:relative;top:auto}}
+</style>
+</head>
+<body>
+<audio id="bgAudio" autoplay playsinline preload="auto" aria-hidden="true"></audio>
+<main class="app">
+<header class="topbar">
+  <div class="brand"><div class="brand-mark">K</div><div><h1>Para mi querida Kathy</h1><p>Texto completo tal cual · música automática por secciones</p></div></div>
+  <div class="actions"><button class="pill secondary hide-mobile" id="savePdf">PDF</button></div>
+</header>
+<div class="status-line" id="statusLine">Música automática: páginas 1–4 Eels, páginas 5–9 Victor’s Piano Solo, páginas 10–13 Caribbean Blue.</div>
+<section class="book-wrap" id="bookWrap" aria-live="polite">
+
+<article class="page theme-cover" id="page-1" data-track="sleep" aria-label="Página 1">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/01-portada-corazon-luna.svg" alt="Corazón, luna y estrellas" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Prólogo del corazón</div>
+      <h2>Para mi querida Kathy</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Hellou, amooor.
+Han pasado más de diez días desde que no sé nada de ti, y si te escribí hoy fue para saber de ti. ¿Por qué? Porque te llevo en el alma y mi corazón. Te amo con  todo lo que soy, y no puedo permitirme ocultar lo que llevo dentro, ni intentar anestesiarlo con distancia (lejanía) u olvido, porque al parecer eso no existe cuando se trata de ti.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="sleep"><span class="music-icon">♫</span><div class="music-info"><strong>I Need Some Sleep · Eels</strong><span>Primer tramo · desvelo, ausencia y confesión</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">1 / 14</div>
+</article>
+<article class="page theme-paper" id="page-2" data-track="sleep" aria-label="Página 2">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/02-carta-vela.svg" alt="Carta con vela y pluma" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Confesión</div>
+      <h2>Tú en cada instante de mi día</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Tú estás en cada instante de mi día. Tal vez me di cuenta de que me enamoré de ti cuando empezaste a habitar mis momentos más completos, más alegres y más importantes, esos en los que simplemente quería que tú estuvieras ahí como una motivación más para entrenar, en las series y películas de amor, en el silencio de la noche, y en la luz de las mañanas.
+My querida Kathy, no pensé que llegaras a meterte tan profundamente en mi mente y en mi alma. Últimamente has despertado en mí una parte más poética, sentimental y emocional, a niveles que nunca había vivido. Y por eso debo escribirlo, porque si no lo hago, siento creo que mis emociones me consumirán, mis pensamientos me ahogarán y los recuerdos me sacarán de la realidad.
+Contigo tengo que agradecer que algo en mí creció, algo en mí nació, y eso es el amor este cariño: un amor tan bonito, puro y sincero; un amor que lo da todo de sí, que fluye de mi interior y que no tiene temor a ser tuyo, porque tal vez ya lo es más de lo que yo mismo alcanzo a comprender.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="sleep"><span class="music-icon">♫</span><div class="music-info"><strong>I Need Some Sleep · Eels</strong><span>Primer tramo · desvelo, ausencia y confesión</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">2 / 14</div>
+</article>
+<article class="page theme-rose" id="page-3" data-track="sleep" aria-label="Página 3">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/03-distancia-manana.svg" alt="Amanecer y distancia" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Ausencia</div>
+      <h2>Te extraño, hoy, mañana y siempre</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Todo este tiempo te he pensado como no te imaginas. Sabes, mi princesa, cómo me haces sufrir, jeje. Y río porque creo que el dolor y heridas con una sonrisa duele menos.
+TE EXTRAÑOOO me haces falta. Hoy, mañana y siempre.
+Creo que debo confesarte muchas cosas, demasiadas tal vez, pero cosas que debes saber. Y tranquila, todas tienen que ver con lo mucho que te quiero, te adoro y te llevo conmigo) y te amo. Tú has creado en mí todo tipo de emociones: la mayoría maravillosas, y otras también tristes. Sé que el amor tiene sus ventajas y sus desventajas, porque de alguna manera uno sabe que tarde o temprano va a sufrir, jeje.
+Y aunque tú digas que no puedes estar conmigo porque me vas a lastimar, yo te digo que ya es tarde, jeje. Ya estoy loco de perdido por ti. Bueno, haciendo punto aparte, voy a iniciar con lo malo para terminar con lo bueno.
+Y diceeeeeee:</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="sleep"><span class="music-icon">♫</span><div class="music-info"><strong>I Need Some Sleep · Eels</strong><span>Primer tramo · desvelo, ausencia y confesión</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">3 / 14</div>
+</article>
+<article class="page theme-gold" id="page-4" data-track="sleep" aria-label="Página 4">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/04-poesia-luz.svg" alt="Luz poética" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Antes de la declaración</div>
+      <h2>Estoy empezandoooooo</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Estoy empezandoooooo.
+Ahí vaaaaa.
+No sé, parece, lo escribo así porque necesito que conozcas lo que estoy viviendo, lo que me nace y lo que estoy dispuesto a hacer por ti.
+Primeramente, quiero un abrazo tuyo, mi amor jeje.
+Bueno, empecemoosss. Los titulé así.
+Ah, y por cierto, si ya llegaste a esta parte, es porque estás cerca de conocer mi declaración principal, jeje.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="sleep"><span class="music-icon">♫</span><div class="music-info"><strong>I Need Some Sleep · Eels</strong><span>Primer tramo · desvelo, ausencia y confesión</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">4 / 14</div>
+</article>
+<article class="page theme-wine" id="page-5" data-track="victor" aria-label="Página 5">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/05-declaracion-libreta.svg" alt="Libreta de declaración" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte I</div>
+      <h2>La pesadilla de tu indiferencia</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">LA PESADILLA DE TU INDIFERENCIA
+Comienzo explicando el porqué del título. Así como existen sueños bonitos donde soy feliz contigo, también han existido sueños que me han despertado y que, sinceramente, puedo llamar pesadillas.
+Para mí, antes las pesadillas eran soñar con monstruos, fantasmas, apocalipsis zombis o caer de edificios, jeje. Pero estos días he soñado contigo. Pensarás: “¿qué soñaste?”. Bueno, te lo explico.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="victor"><span class="music-icon">♫</span><div class="music-info"><strong>Victor’s Piano Solo · Corpse Bride</strong><span>Segundo tramo · sueños, intensidad y amor gótico</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">5 / 14</div>
+</article>
+<article class="page theme-night" id="page-6" data-track="victor" aria-label="Página 6">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/06-pesadilla-indiferencia.svg" alt="Pesadilla de indiferencia" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte I · continuación</div>
+      <h2>Cuando desapareces y yo te busco</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Sueño que estamos en clases, en una salida o en algún lugar lleno de gente. De alguna manera tú estás ahí. Te veo, pero en ocasiones desapareces o huyes, y yo empiezo a buscarte. Tal vez ya lo viví, porque sí, lo viví: te fuiste sin despedirte y sin avisar, y me dolió.
+Sé que era algo que, de alguna forma, era predecible, porque ya me habías dicho que ibas a desaparecer en algún momento. Sé que tal vez esa es tu forma de ser, pero por lo menos quisiera que, si algo no te gusta, si algo te incomoda o si algo te hace sentir mal, me lo comuniques, porfa. Porque tu indiferencia me lastima.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="victor"><span class="music-icon">♫</span><div class="music-info"><strong>Victor’s Piano Solo · Corpse Bride</strong><span>Segundo tramo · sueños, intensidad y amor gótico</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">6 / 14</div>
+</article>
+<article class="page theme-burton" id="page-7" data-track="victor" aria-label="Página 7">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/07-busqueda-suenos.svg" alt="Búsqueda en sueños" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte I · desvelo</div>
+      <h2>Tengo miedo a perderte</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Y siguiendo con esas pesadillas, he llegado a la conclusión de que sí: tengo miedo a perderte. Tengo miedo a que no estés a mi lado. Tengo me asusta imaginar estar lejos de ti. Y aunque solo sean sueños, han sido causa de mis desvelos. Siento que estaré mejor si hablo contigo sobre esto, porque son cosas que me matan por dentro y me consumen.
+Solo sé que, si llegara a pasar algo entre nosotros, quiero seguir teniéndote a mi lado. Porque ya sea en la realidad o en esas otras dimensiones lúcidas de mis sueños, yo te busco. Te busco porque quiero hablar contigo, porque no quiero que haya tristeza entre nosotros, y porque, más que cualquier cosa, quiero que estés feliz y tranquila. Verte alegre también me hace bien y estare para ti para acompañarte en esa oscuridad siendo tu guía hacia la luz.
+No sé qué pueda suceder, pero estoy seguro de lo que quiero contigo. Mis intenciones siempre serán bonitas, sanas y sinceras. Y si algo pasa, quiero que todo el cariño y  afecto que nos tenemos nos siga uniendo de la forma más sana posible.
+Finalmente, te cuento todo esto porque así me siento mejor, más libre y más tranquilo). El simple hecho de que lo sepas me libera muchísimo.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="victor"><span class="music-icon">♫</span><div class="music-info"><strong>Victor’s Piano Solo · Corpse Bride</strong><span>Segundo tramo · sueños, intensidad y amor gótico</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">7 / 14</div>
+</article>
+<article class="page theme-blue" id="page-8" data-track="victor" aria-label="Página 8">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/08-serendipia-caminos.svg" alt="Serendipia de caminos" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte II</div>
+      <h2>La serendipia de nuestro encuentro</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">LA SERENDIPIA DE NUESTRO ENCUENTRO
+Tal vez te preguntes de qué habla esta palabra. La serendipia habla de esas cosas hermosas de la vida que nunca fueron planeadas. Y eso es precisamente lo que más nos ha sucedido.
+Algunas de las mejores cosas no se buscan, simplemente llegan. La magia de vivir no siempre está en encontrar exactamente lo que uno buscaba, sino en descubrir algo mejor de lo que jamás imaginó encontrar. Y eso, para mí, fue nuestro encuentro.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="victor"><span class="music-icon">♫</span><div class="music-info"><strong>Victor’s Piano Solo · Corpse Bride</strong><span>Segundo tramo · sueños, intensidad y amor gótico</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">8 / 14</div>
+</article>
+<article class="page theme-forest" id="page-9" data-track="victor" aria-label="Página 9">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/09-decision-rosa-camino.svg" alt="Rosa y decisión" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte II · destino</div>
+      <h2>Nuestro choque de almas</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Nuestro destino o casualidad. Nuestro choque de almas. Nuestro reencuentro de vidas. Nuestra atracción vibratoria en medio del universo. No sé si me entenderás, pero siento presiento que todo tiene un propósito en la vida. Tal vez ya estaba escrito que nos conociéramos, o quizá Dios cruzó nuestros caminos. Tal vez nos pensamos y nos esperamos tanto, sin saber que existíamos, hasta que un día simplemente volvimos a encontrarnos.
+Así veo lo especial e importante que eres para mi vida. Porque hace mucho tiempo el amor asi de puro no tocaba mi puerta, y hoy quiero que sepas que te amo con todas mis fuerzas y te quiero con todo lo que soy, contigo he aprendido más del amor, del valor, del querer y de la vida.
+Por eso estoy dispuesto a esperarte, aguardarte y tener paciencia por ti toda una vida si es necesario para ser feliz contigo. Porque ahora te amo y mi corazón te eligió. Porque sería cobarde de mi parte no luchar por esta maravilla que el universo me dio.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="victor"><span class="music-icon">♫</span><div class="music-info"><strong>Victor’s Piano Solo · Corpse Bride</strong><span>Segundo tramo · sueños, intensidad y amor gótico</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">9 / 14</div>
+</article>
+<article class="page theme-sun" id="page-10" data-track="enya" aria-label="Página 10">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/10-mirada-luz.svg" alt="Mirada y luz" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte III</div>
+      <h2>La luz del sol y tu mirada</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Tal vez me veo muy sentimental al expresarme, pero cada palabra lo vale. Creo que está en la naturaleza del ser humano dejar salir de la prisión su lado afectivo, ese lado que muchas veces escondemos inseguridad y vulnerabilidad.
+Es de mi DECLARACION, contarte que tú me has llevado a conocer y descubrir un mundo inimaginable, un mundo que desconocía y que tal vez siempre estuvo dentro de mí. Una dimensión donde vuelvo a creer en las historias, en los cuentos y, especialmente, en los finales felices.
+Todo nació, y siempre te lo voy a repetir, jeje, cuando la luz del sol deslumbró mis ojos con tu belleza mientras me hablabas de tus historias. Ahí, tus ojos me hipnotizaron. Esa mirada que tanto busco hoy suele aparecer cuando me miras directamente. Y los ojos no mienten. Podemos ocultar lo que sentimos pero los ojos son culpables, porque ellos les hablan a los míos.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="enya"><span class="music-icon">♫</span><div class="music-info"><strong>Caribbean Blue · Enya</strong><span>Tercer tramo · esperanza, calma y cierre</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">10 / 14</div>
+</article>
+<article class="page theme-medieval" id="page-11" data-track="enya" aria-label="Página 11">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/11-promesa-castillo-mar.svg" alt="Promesa, castillo y mar" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte III · promesa</div>
+      <h2>Mi decisión de esperarte</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Hoy y siempre quiero que sepas y tengas presente que, si en algún momento el miedo te detiene, si la ansiedad se vuelve incontrolable o si sientes que no puedes más, yo estaré ahí contigo para apoyarte, abrazarte o tomarte de la mano. Quiero que sepas que te cuidaré y te protegeré.
+Finalmente, quiero dejo mucho en claro: en la lejanía no te olvido; en la soledad estás conmigo. En la felicidad seré tu abrigo; en la tristeza, tu pilar de firmeza; y en la oscuridad, esa luz de esperanza.
+Te esperaré y seguiré aquí lo que sea necesario, porque es mi DECISIÓN. Porque no puedo dejar ir tan fácil este amor Porque tú no tienes ni idea de todo lo que quiero contigo: redescubrirnos diariamente, vivir despacio, sin apuro, y aprovechar esta oportunidad que Dios nos ha dado de conocernos.
+Porque el amor es paciente y bondadoso, y para mí, si nos amamos y nos elegimos, eso basta para salir adelante juntos.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="enya"><span class="music-icon">♫</span><div class="music-info"><strong>Caribbean Blue · Enya</strong><span>Tercer tramo · esperanza, calma y cierre</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">11 / 14</div>
+</article>
+<article class="page theme-gothic" id="page-12" data-track="enya" aria-label="Página 12">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/12-rapunzel-abrazo.svg" alt="Rapunzel y abrazo" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte IV</div>
+      <h2>Te esperaré así como...</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">TE ESPERARÉ ASÍ COMO:
+Te esperaré como esperaron a Odiseo entre mares, guerras y tempestades.
+Te esperaré como el conde Drácula esperó siglos por Elizabeta,
+creyendo que el tiempo no era mas fuerte que el amor y la esperanza de verla después de 400 años por su amada reencarnada en Mina.
+Te esperaré con como la Bestia esperó romper su maldición, y dejo ir a su amada por amor a los dos aferrado a la esperanza cuando todo parecía perdido.</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="enya"><span class="music-icon">♫</span><div class="music-info"><strong>Caribbean Blue · Enya</strong><span>Tercer tramo · esperanza, calma y cierre</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">12 / 14</div>
+</article>
+<article class="page theme-violet" id="page-13" data-track="enya" aria-label="Página 13">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <aside class="visual-col">
+      <figure class="image-slot filled"><img src="assets/images/13-alicia-suenos.svg" alt="Alicia y sueños" loading="eager"></figure>
+    </aside>
+    <section class="text-col">
+      <div class="chapter-label">Parte IV · cierre</div>
+      <h2>Rapuncel, Tim Burton y el país de los sueños</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <div class="letter-raw">Te esperaré como a Rapuncel en su castillo encerrado, en donde escalare lo mas alto parea verte, abrazarte, marcarte entre mi brazos aunque nos caigamos jej aguantar una mordida tuya jejej y mis manos disfruten el camino hacia tu cintura y cálida piel,y hay un beso que si da talvez la historia acabaria o quizas empezaria? donde tu inquietante momento de nervios donde tu vos desaparece pero tu mirada me dice mas que mil palabras cuando estamos juntos, como cuando tu voz y la mía se cruzan en nuestros oídos y se sienten en el cielo, como cuando al mismo tiempo no nos queremos soltar, y estamos tan aferrados a un profundo abrazo, como cuando tu carita se coloca tan roja como un tomate y me gusta ese tomate jej tan tierna y bonita, como cuando quieres expresarte diciéndome algo en ese momento pero no es como lo quieres y me dejas pensando pero después de segundos se que es lo que quieres decir jeje porque como dijo Tim Burton, el amor es de quien en la oscuridad de la otra persona aun así decida quedarse y no importa la perfección, me encanta tu rareza.
+Hoy y siempre sea siempre redundante, así como el quererte bastante, se que nos encontrare en mis sueños como Alicia al sombrero, en un país donde no existe lo imposible y somos muy felices,
+
+Para mi querida damisela Kathy
+Att: Joshe un caballero enamorado…</div>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="enya"><span class="music-icon">♫</span><div class="music-info"><strong>Caribbean Blue · Enya</strong><span>Tercer tramo · esperanza, calma y cierre</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">13 / 14</div>
+</article>
+
+<article class="page theme-burton final-page" id="page-14" data-track="victor" aria-label="Página 14">
+  <div class="page-glow"></div>
+  <div class="corner c1">✦</div><div class="corner c2">✦</div><div class="corner c3">♡</div><div class="corner c4">♡</div>
+  <div class="page-inner">
+    <section class="text-col">
+      <div class="chapter-label">Cierre final</div>
+      <h2>La luz de la luna</h2>
+      <div class="ornament">— ✦ ♡ ✦ —</div>
+      <figure class="final-quote-frame">
+        <img src="assets/images/14-cadaver-novia-final.jpg" alt="Frase de El cadáver de la novia sobre la luz de la luna" loading="eager">
+      </figure>
+    </section>
+  </div>
+  <div class="music-strip" data-track-strip="victor"><span class="music-icon">♫</span><div class="music-info"><strong>Victor’s Piano Solo · Corpse Bride</strong><span>Cierre final · luz de luna y amor gótico</span></div><span class="auto-badge">AUTO</span></div>
+  <div class="page-num">14 / 14</div>
+</article>
+</section>
+<nav class="nav-bar" aria-label="Controles del libro">
+  <button class="pill" id="firstBtn">Inicio</button>
+  <button class="pill" id="prevBtn">Anterior</button>
+  <span class="counter" id="counter">1 / 13</span>
+  <div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+  <button class="pill" id="nextBtn">Siguiente</button>
+  <button class="pill" id="lastBtn">Final</button>
+</nav>
+</main>
+<script>
+const pages=[...document.querySelectorAll('.page')];
+const counter=document.getElementById('counter');
+const progress=document.getElementById('progressBar');
+const audio=document.getElementById('bgAudio');
+const statusLine=document.getElementById('statusLine');
+const tracks={
+  sleep:'assets/audio/01-i-need-some-sleep-eels.mp3',
+  victor:'assets/audio/02-victors-piano-solo-corpse-bride.mp3',
+  enya:'assets/audio/03-caribbean-blue-enya.mp3'
+};
+let current=0;
+let activeTrack='';
+let audioUnlocked=false;
+function show(index){
+  current=Math.max(0,Math.min(pages.length-1,index));
+  pages.forEach((p,i)=>p.classList.toggle('active',i===current));
+  counter.textContent=(current+1)+' / '+pages.length;
+  progress.style.width=(current/(pages.length-1)*100)+'%';
+  syncAudio();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function setTrack(track){
+  if(activeTrack!==track){
+    activeTrack=track;
+    audio.src=tracks[track];
+    audio.currentTime=0;
+    audio.loop=false;
+  }
+  audio.play().then(()=>{
+    audioUnlocked=true;
+    statusLine.textContent='Música automática activa.';
+    document.querySelectorAll('.music-strip').forEach(el=>{
+      const on=el.dataset.trackStrip===track;
+      el.classList.toggle('is-active',on);
+      el.classList.toggle('is-waiting',!on);
+    });
+  }).catch(()=>{
+    statusLine.textContent='Si el navegador bloquea el audio automático, toca cualquier parte o pasa de página y la música arrancará.';
+    document.querySelectorAll('.music-strip').forEach(el=>el.classList.add('is-waiting'));
+  });
+}
+function syncAudio(){
+  const track=pages[current].dataset.track;
+  setTrack(track);
+}
+function next(){show(current+1)}
+function prev(){show(current-1)}
+document.getElementById('nextBtn').addEventListener('click',next);
+document.getElementById('prevBtn').addEventListener('click',prev);
+document.getElementById('firstBtn').addEventListener('click',()=>show(0));
+document.getElementById('lastBtn').addEventListener('click',()=>show(pages.length-1));
+document.getElementById('savePdf').addEventListener('click',()=>window.print());
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowDown')next(); if(e.key==='ArrowLeft'||e.key==='ArrowUp')prev();});
+let startX=null;document.addEventListener('touchstart',e=>{startX=e.touches[0].clientX;},{passive:true});document.addEventListener('touchend',e=>{if(startX===null)return; const diff=startX-e.changedTouches[0].clientX; if(Math.abs(diff)>50)(diff>0?next:prev)(); startX=null;},{passive:true});
+['pointerdown','click','touchstart'].forEach(evt=>document.addEventListener(evt,()=>{if(!audioUnlocked)syncAudio();},{once:false,passive:true}));
+audio.addEventListener('ended',()=>{next();});
+show(0);
+</script>
+</body>
+</html>

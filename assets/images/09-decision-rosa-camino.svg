@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Decisión de esperar con rosa y camino">
+<title>Decisión de esperar con rosa y camino</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0cd"/><stop offset=".58" stop-color="#bfd0a2"/><stop offset="1" stop-color="#58734a"/></linearGradient>
+  <radialGradient id="glow" cx="50%" cy="42%" r="55%"><stop offset="0" stop-color="#fff6d9" stop-opacity=".45"/><stop offset="1" stop-color="#fff6d9" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#130713" flood-opacity=".35"/></filter>
+  <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="14" cy="18" r="1.4" fill="#fff" opacity=".18"/><circle cx="59" cy="40" r="1" fill="#fff" opacity=".12"/><circle cx="78" cy="72" r="1.2" fill="#000" opacity=".08"/></pattern>
+  <style>
+    .gold{fill:#f4dda4} .rose{fill:#d76d8a} .wine{fill:#5d1f38} .cream{fill:#fff2d2} .ink{fill:#24121b} .blue{fill:#5e8aa8} .violet{fill:#49305c} .green{fill:#58734a} .line{fill:none;stroke:#f4dda4;stroke-width:7;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#f4dda4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;opacity:.72}
+  </style>
+</defs>
+<rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+<rect width="1200" height="900" rx="56" fill="url(#grain)" opacity=".55"/>
+<ellipse cx="600" cy="410" rx="470" ry="345" fill="url(#glow)"/>
+<g opacity=".85">
+  <circle cx="110" cy="100" r="4" fill="#fff2c7"/><circle cx="220" cy="165" r="3" fill="#fff" opacity=".72"/><circle cx="1035" cy="120" r="4" fill="#fff2c7"/><circle cx="990" cy="244" r="2.8" fill="#fff" opacity=".68"/><circle cx="760" cy="94" r="3" fill="#fff2c7"/>
+  <path d="M940 640l16 36 36 16-36 16-16 36-16-36-36-16 36-16z" fill="#fff2c7" opacity=".28"/>
+  <path d="M190 620l11 25 25 11-25 11-11 25-11-25-25-11 25-11z" fill="#fff2c7" opacity=".24"/>
+</g>
+
+<g filter="url(#shadow)">
+  <path d="M0 670c180-78 340-80 520-35 180 45 358 8 680-72v337H0z" fill="#58734a" opacity=".62"/>
+  <path d="M580 900c-45-210-20-380 72-560" stroke="#fff2d2" stroke-width="66" opacity=".58" fill="none"/>
+  <path d="M604 900c30-200 15-358-36-515" stroke="#c9a86b" stroke-width="22" opacity=".6" fill="none"/>
+  <path d="M320 610c-35-92-20-168 44-226 60 64 72 140 38 226z" fill="#d76d8a"/>
+  <path d="M355 620c0-95 2-160 9-228" stroke="#35623a" stroke-width="12" fill="none"/><path d="M360 512c-64-40-118-28-150 22 55 38 102 34 150-22zM368 560c62-42 116-25 150 24-56 42-103 35-150-24z" fill="#58734a"/>
+  <path d="M855 492c-80 55-120 120-120 198h222c-6-85-40-150-102-198z" fill="#fff2d2" opacity=".72"/>
+  <path class="line" d="M798 662c42 36 86 36 130 0" opacity=".8"/>
+</g>
+
+</svg>

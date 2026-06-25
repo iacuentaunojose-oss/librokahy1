@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Promesa medieval con castillo, mar y rosa">
+<title>Promesa medieval con castillo, mar y rosa</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d7edff"/><stop offset=".5" stop-color="#8eb3cf"/><stop offset="1" stop-color="#4b6586"/></linearGradient>
+  <radialGradient id="glow" cx="50%" cy="42%" r="55%"><stop offset="0" stop-color="#fff6d9" stop-opacity=".45"/><stop offset="1" stop-color="#fff6d9" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#130713" flood-opacity=".35"/></filter>
+  <pattern id="grain" width="90" height="90" patternUnits="userSpaceOnUse"><circle cx="14" cy="18" r="1.4" fill="#fff" opacity=".18"/><circle cx="59" cy="40" r="1" fill="#fff" opacity=".12"/><circle cx="78" cy="72" r="1.2" fill="#000" opacity=".08"/></pattern>
+  <style>
+    .gold{fill:#f4dda4} .rose{fill:#d76d8a} .wine{fill:#5d1f38} .cream{fill:#fff2d2} .ink{fill:#24121b} .blue{fill:#5e8aa8} .violet{fill:#49305c} .green{fill:#58734a} .line{fill:none;stroke:#f4dda4;stroke-width:7;stroke-linecap:round;stroke-linejoin:round} .thin{fill:none;stroke:#f4dda4;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;opacity:.72}
+  </style>
+</defs>
+<rect width="1200" height="900" rx="56" fill="url(#bg)"/>
+<rect width="1200" height="900" rx="56" fill="url(#grain)" opacity=".55"/>
+<ellipse cx="600" cy="410" rx="470" ry="345" fill="url(#glow)"/>
+<g opacity=".85">
+  <circle cx="110" cy="100" r="4" fill="#fff2c7"/><circle cx="220" cy="165" r="3" fill="#fff" opacity=".72"/><circle cx="1035" cy="120" r="4" fill="#fff2c7"/><circle cx="990" cy="244" r="2.8" fill="#fff" opacity=".68"/><circle cx="760" cy="94" r="3" fill="#fff2c7"/>
+  <path d="M940 640l16 36 36 16-36 16-16 36-16-36-36-16 36-16z" fill="#fff2c7" opacity=".28"/>
+  <path d="M190 620l11 25 25 11-25 11-11 25-11-25-25-11 25-11z" fill="#fff2c7" opacity=".24"/>
+</g>
+
+<g filter="url(#shadow)">
+  <path d="M0 590c160-100 300-105 445-56 147 50 225 40 365-60 94-67 218-66 390 15v411H0z" fill="#386c93" opacity=".72"/>
+  <path d="M0 690c160-58 330-55 520-16 240 49 440 24 680-58v284H0z" fill="#5f9fc2" opacity=".62"/>
+  <path d="M0 755c205-36 360-26 520 6 210 43 410 20 680-44v183H0z" fill="#86bfd4" opacity=".55"/>
+  <g transform="translate(182 238)"><rect x="0" y="160" width="360" height="230" fill="#796a63"/><rect x="30" y="70" width="86" height="320" fill="#8b7a72"/><rect x="245" y="70" width="86" height="320" fill="#8b7a72"/><path d="M30 70h86l-43-70zM245 70h86l-43-70z" fill="#5b4a4c"/><rect x="142" y="230" width="76" height="160" rx="34" fill="#201820"/><rect x="48" y="130" width="28" height="60" fill="#2b2a36"/><rect x="275" y="130" width="28" height="60" fill="#2b2a36"/><path d="M0 160h360" class="thin"/></g>
+  <path d="M850 485c-52-64-32-144 45-192 65 56 72 132 25 192z" fill="#d76d8a"/><path d="M895 515c0-120 2-170 2-222" stroke="#35623a" stroke-width="10"/><path d="M895 405c-74-38-122-25-150 20 65 38 112 32 150-20z" fill="#58734a"/>
+  <path d="M680 610c78-40 158-40 240 0" class="thin"/>
+</g>
+
+</svg>
